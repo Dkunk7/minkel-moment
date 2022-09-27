@@ -1,0 +1,26 @@
+:root {
+    --prim: rgb(0, 89, 255);
+    --second: rgb(213, 233, 231);
+    --tert: rgb(45, 54, 68);
+}
+
+body {
+    background-color: rgb(231, 209, 206);
+}
+
+.head {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--tert);
+}
+
+header nav ul li a:hover {
+    color: var(--prim);
+}
