@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --prim: rgb(0, 89, 255);
     --second: rgb(213, 233, 231);
@@ -8,15 +14,30 @@ body {
     background-color: rgb(231, 209, 206);
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+    background-color: rgb(223, 145, 132);
+}
+
 .head {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     list-style: none;
+    text-decoration: none;
 }
 
 header nav ul li a {
+    padding: 10px 15px;
+    font-size: 25px;
     text-decoration: none;
     color: var(--tert);
 }
